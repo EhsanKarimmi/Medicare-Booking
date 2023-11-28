@@ -9,3 +9,9 @@
     margin: 0;
     padding: 0;
 }
+
+@layer components {
+    .navbar {
+        @apply bg-[url("./assets/images/mask.png")] bg-no-repeat bg-center bg-cover rounded-md;
+    }
+}
