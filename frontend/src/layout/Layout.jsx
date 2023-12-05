@@ -5,13 +5,13 @@ import Footer from "../components/Footer";
 
 function Layout() {
     return (
-        <div className="w-10/12 justify-center mx-auto">
+        <>
             <Navbar />
             <main>
                 <Routers />
             </main>
             <Footer />
-        </div>
+        </>
     );
 }
 

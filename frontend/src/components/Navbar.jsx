@@ -10,7 +10,7 @@ function Navbar() {
         setSelectedLink(window.location.pathname);
     }, []);
     return (
-        <nav className="navbar p-3 flex justify-between items-center">
+        <nav className="navbar sticky top-0 right-0 bg-white py-3 px-20 flex justify-between items-center shadow-sm">
             {/* logo */}
             <Link to="/">
                 <img src={logo} alt="Medicare Logo" />

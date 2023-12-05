@@ -12,6 +12,9 @@
 
 @layer components {
     .navbar {
-        @apply bg-[url("./assets/images/mask.png")] bg-no-repeat bg-center bg-cover rounded-md;
+        @apply bg-[url("./assets/images/mask.png")] bg-no-repeat bg-center bg-cover;
+    }
+    .hero_container {
+        @apply bg-[url("./assets/images/hero_bg.png")] bg-no-repeat bg-center bg-cover;
     }
 }
